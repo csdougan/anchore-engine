@@ -18,7 +18,7 @@ RUN set -ex && \
 RUN set -ex && \
     echo "installing OS dependencies" && \
     yum update -y && \
-    yum install -y gcc make python36 git python3-wheel python36-devel go postgresql-devel python3-cffi gcc-c++ libffi
+    yum install -y gcc make python36 git python3-wheel python36-devel go postgresql-devel python3-cffi gcc-c++ libffi-devel
 
 # create anchore binaries
 RUN set -ex && \
